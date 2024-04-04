@@ -2,10 +2,12 @@
 
 select * 
 from customers
--- where state in ('VA', 'GA', 'FL');
+where state in ('VA', 'GA', 'FL');
 -- same as ( where state = 'VA' or state = 'GA' or state = 'FL' ) 
 
-where state not in ('VA', 'GA', 'FL');
+select * 
+from customers
+where the state not in ('VA', 'GA', 'FL');
 
 -- Ex. 1 Return products with
 -- quantity in stock equal to 49, 38, 72
