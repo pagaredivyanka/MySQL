@@ -5,7 +5,7 @@ from customers
 where points between 1000 and 3000;
 
 -- EX.1 return customers born 
--- 		between 1/1/1990 and 1/1/2000
+-- between 1/1/1990 and 1/1/2000
 
 select *
 from customers
