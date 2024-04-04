@@ -22,7 +22,6 @@ where last_name like 'b____y';
 
 -- Ex. 1 
 -- Get the customers whose addresses contain TRAIL or AVENUE
--- phone numbers end with 9
 
 select *
 from customers
