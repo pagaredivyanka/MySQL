@@ -1,2 +1,13 @@
 # MySQL
-using MySQL workbench, implemented different operators, clouses 
+MySQL Workbench
+
+Clause -
+SELECT clause
+WHERE clause
+
+Operators -
+BETWEEN 
+LIKE
+REGEXP
+
+Join
