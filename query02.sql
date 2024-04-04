@@ -9,6 +9,9 @@ select *
 from customers
 where state = 'VA';
 where state != 'VA';
+
+select *
+from customers
 where birth_date > '1990-01-01' and points > 1000;
 
 select *
