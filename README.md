@@ -2,12 +2,12 @@
 MySQL Workbench
 
 Clause -
-SELECT clause
+SELECT clause, 
 WHERE clause
 
 Operators -
-BETWEEN 
-LIKE
-REGEXP
+BETWEEN, 
+LIKE, 
+REGEXP, 
 
 Join
