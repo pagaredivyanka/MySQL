@@ -1,4 +1,5 @@
 -- REGEXP Operator
+
 -- ^ first
 -- $ last
 -- | or 
@@ -46,7 +47,7 @@ select *
 from customers
 where last_name regexp 'e[ly]';
 
--- last name which has '[a.b.c.d.e.f.g.h]e' ==> ae,be,ce,de,ee,fe,ge,he
+-- last name which has '[a.b.c.d.e.f.g.h]e' ==> (ae,be,ce,de,ee,fe,ge,he)
 select *
 from customers
 where last_name regexp '[gim]e';
@@ -69,7 +70,7 @@ select *
 from customers
 where last_name regexp 'ey$|on$';
 
--- last names start with MY or contains SE
+-- last names start with MY or contain SE
 select *
 from customers
 where last_name regexp '^my|se';
