@@ -5,7 +5,8 @@ CREATE TABLE stud (
     name VARCHAR(255)
 );
 
-INSERT into stud VALUES(1, 'Ritesh');
+-- INSERT INTO table_name (id, 'name') Values (1, 'Ritesh');  
+INSERT into stud VALUES(1, 'Ritesh');  --for single entry
 
 SELECT * from stud;
 
