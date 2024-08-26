@@ -8,11 +8,11 @@ create table customer (
   product varchar(300)
 );
 
-insert into customer values(101, 'AAA', 'BBB', 'Nashik', 'book');
-insert into customer values(102, 'CCC', 'DDD', 'adgau', 'pen');
-insert into customer values(103, 'EEE', 'FFF', 'pune', 'bag');
-insert into customer values(104, 'GGG', 'HHH', 'Nashik', 'book');
-insert into customer values(105, 'XXX', 'ZZZ', 'nagpur', null);
+-- insert into customer values(101, 'AAA', 'BBB', 'Nashik', 'book');
+-- insert into customer values(102, 'CCC', 'DDD', 'adgau', 'pen');
+-- insert into customer values(103, 'EEE', 'FFF', 'pune', 'bag');
+-- insert into customer values(104, 'GGG', 'HHH', 'Nashik', 'book');
+-- insert into customer values(105, 'XXX', 'ZZZ', 'nagpur', null);
 
 insert into customer (id, first_name, last_name, City, product)
 values(101, 'AAA', 'BBB', 'Nashik', 'book'),
