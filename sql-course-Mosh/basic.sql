@@ -2,11 +2,11 @@ create database shop;
 use shop;
 create table customer (id int primary key, first_name varchar(80), last_name varchar(80), City varchar(80), product varchar(300));
 select * from customer;
-insert into customer values(101, 'Divyanka', 'Pagare', 'Nashik', 'book');
-insert into customer values(102, 'siddhika', 'pagare', 'adgau', 'pen');
-insert into customer values(103, 'sneha', 'kharjul', 'pune', 'bag');
-insert into customer values(104, 'sneha', 'borade', 'Nashik', 'book');
-insert into customer values(105, 'prerna', 'shelke', 'nagpur', null);
+insert into customer values(101, 'AAA', 'BBB', 'Nashik', 'book');
+insert into customer values(102, 'CCC', 'DDD', 'adgau', 'pen');
+insert into customer values(103, 'EEE', 'FFF', 'pune', 'bag');
+insert into customer values(104, 'GGG', 'HHH', 'Nashik', 'book');
+insert into customer values(105, 'XXX', 'ZZZ', 'nagpur', null);
 select * from customer;
 
 
