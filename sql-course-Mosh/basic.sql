@@ -14,9 +14,14 @@ insert into customer values(103, 'EEE', 'FFF', 'pune', 'bag');
 insert into customer values(104, 'GGG', 'HHH', 'Nashik', 'book');
 insert into customer values(105, 'XXX', 'ZZZ', 'nagpur', null);
 
+insert into customer (id, first_name, last_name, City, product)
+values(101, 'AAA', 'BBB', 'Nashik', 'book'),
+  (102, 'CCC', 'DDD', 'adgau', 'pen'),
+  (103, 'EEE', 'FFF', 'pune', 'bag'),
+  (104, 'GGG', 'HHH', 'Nashik', 'book'),
+  (105, 'XXX', 'ZZZ', 'nagpur', null);
 
 select * from customer;
-
 
 select * 
 from customer
